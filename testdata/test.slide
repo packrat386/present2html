@@ -1,0 +1,43 @@
+# Test Presentation
+For present2html
+
+Aidan Coyle
+GopherCon Attendee
+packrat386@gmail.com
+
+## This is a slide
+
+It has some text
+
+The text has formatting
+
+* Like **bold**
+* And _italics_
+
+## This slide has code inline
+
+This is a code snippet
+
+```
+package main
+
+import (
+        "fmt"
+)
+
+func main() {
+        fmt.Println("written inline")
+}
+```
+
+## This slide has code linked
+
+This is a code snippet
+
+.code other_code.go
+
+## This slide has a link
+
+This is a link to the docs for the `present` format
+
+.link https://pkg.go.dev/golang.org/x/tools/present documentation
