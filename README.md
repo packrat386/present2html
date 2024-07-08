@@ -5,7 +5,15 @@ Convert a presentation from go present format to a statically servable HTML page
 
 A community day project for GopherCon 2024.
 
+## Installation
+
+```
+go install github.com/packrat386/present2html@latest
+```
+
 ## Usage
+
+The binary takes a single argument which is the presentation to convert, and writes the HTML to standard output.
 
 ```
 present2html presentation.slide > presentation.html
